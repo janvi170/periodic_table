@@ -1,365 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Periodic Table</title>
-    <style>
-        .box{
-            width:95%;
-            height:100%;
-            background-color: black;
-            margin: auto;
-        }
-        .container{
-            width:79%;
-            height:630px;
-            background-color: white;
-            margin:auto;
-            margin-top: 0px;
-        }
-        .heading{
-            text-align: center;
-            font-size:33px;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        .element{
-            width:40px;
-            height:40px;
-            border:2px solid black;
-            margin-bottom:15px;
-            margin-left:20px;
-        }
-       #color{
-        background-color:rgb(160, 28, 28);
-        color:white;
-        text-align: center;
-        font-size: 29px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       }
-       #green{
-        background-color:#71A92C;
-       }
-       .container2{
-        width:79%;
-            height:100px;
-            background-color: white;
-            margin:auto;
-            padding-top: 0px;
-       }
-       .element2{
-        width:40px;
-            height:40px;
-            border:2px solid white ;
-            margin-bottom:15px;
-            margin-left:20px;
-       }
-       #green1{
-        background-color: #FF5252;
-        text-align: center;
-            font-size:19px;
-        
-       }
-       .box2{
-        width:520px;
-        height:395px;
-        border:2px solid white;
-        margin-left:15px;
-           }
-       #yellow{
-        width:35px;
-        height:35px;
-        border:5px solid black;
-        background-color: #FFF8E1;
-        margin-bottom: 14px;
-       }
-       .element3{
-        width:130px;
-        height:130px;
-        background-color:#71A92C;
-        border:3px solid black;
-        margin-top:23px;
-       }
-       #x{
-        text-align: right;
-        margin-top: 7px;
-        margin-right:7px;
-        margin-bottom: 7px;
-       }
-       #y{
-        font-size: 45px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
-        margin-left: 8px;
-        margin-top:2px;
-        margin-bottom: 7px;
-       }
-       #z{
-        margin-left:7px;
-       }
-       .element4{
-        width:40px;
-        height:40px;
-        border:2px solid black;
-        margin-top:15px;
-        background-color: #304FFE;
-       }
-       #w{
-        margin-left: 15px;
-       }
-       .black{
-        width:520px;
-        height:235px;
-        border:1px solid white;
-        display: flex;
-       }
-       #green2{
-        background-color: #800080 ;
-       }
-       #green3{
-        background-color: #FF8F00;
-       }
-       #green4{
-        background-color: #6B6A69;
-       }
-        #green5{
-    background-color: #009A17;
-       }#color4{
-        background-color: #FFDE00;
-       }
-       #green6{
-        background-color: #FF007F;
-       }
-       .block2{
-        width:500px;
-        height:30px;
-        border:1px solid white;
-        margin: auto;
-        margin-top:35px;
-        display: flex;
-       }
-       .block1{
-        display:flex;
-       }
-    .class{
-        width:40px;
-        height:30px;
-        border:1px solid black;
-        background-color: #4E5B31;
-    }
-    .class1{
-        width:40px;
-        height:30px;
-        border:1px solid black;
-        background-color: #78BE21;
-    }
-    .block3{
-        width:500px;
-        height:30px;
-        border:1px solid white;
-        margin: auto;
-        margin-top:0px;
+// Write code related to Home page here
 
-        display: flex;
-       }
-       #q{
-        color:white;
-        text-align: center;
-        font-size: 18px;
-       }
-       #p{
-font-size:17px;
-       }
-       #v{
-        font-size:17px;
-       }
-    </style>
-            </head>
-<body class="box">
-    <div class="container2">
-        <br>
-    <p class="heading">THE PERIODIC TABLE OF ELEMENTS</p>
-    </div>
-    <div class="container">
-        <div class="block1">
-        <div>
-        <div class="element" id="color">H</div>
-        <div class="element" id="green"></div>
-        <div class="element" id="green"></div>
-        <div class="element" id="green"></div>
-        <div class="element" id="green"></div>
-        <div class="element" id="green"></div>
-        <div class="element" id="green"></div>
-        </div>
-        <div>
-        <div class="element2"></div>
-        <div class="element" id="green1">4</div>
-        <div class="element" id="green1">12</div>
-        <div class="element" id="green1">20</div>
-        <div class="element" id="green1">38</div>
-        <div class="element" id="green1">56</div>
-        <div class="element" id="green1">88</div>
-        </div>
-        <div>
-            <div class="element2"></div>
-            <div class="element2"></div>
-            <div class="element2"></div>
-            <div class="element2"></div>
-            <div class="element2"></div>
-            <div class="element" id="yellow"></div>
-            <div class="element" id="yellow"></div>
-        </div>
-        <div class="box2">
-         <div class="element3">
-            <h4 id="x">14</h4>
-            <p id="y">Si</p>
-            <h4 id="z">Silicon</h4>
-         </div>
-         <div class="black">
-         <div>
-         <div class="element4"></div>
-         <div class="element4"></div>
-         <div class="element4"></div>
-         <div class="element4"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        <div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-            <div class="element4" id="w"></div>
-        </div>
-        </div>
-</div>
-<div>
-    <div class="element2"></div>
-    <div class="element" id="green2"></div>
-    <div class="element" id="green3"></div>
-    <div class="element" id="green3"></div>
-    <div class="element" id="green3"></div>
-    <div class="element" id="green3"></div>
-    <div class="element" id="green4"></div>
-    </div>
-    <div>
-        <div class="element2"></div>
-        <div class="element" id="green5"></div>
-        <div class="element" id="green2"></div>
-        <div class="element" id="green2"></div>
-        <div class="element" id="green3"></div>
-        <div class="element" id="green3"></div>
-        <div class="element" id="green4"></div>
-        </div>
-        <div>
-            <div class="element2"></div>
-            <div class="element" id="green5"></div>
-            <div class="element" id="green5"></div>
-            <div class="element" id="green2"></div>
-            <div class="element" id="green2"></div>
-            <div class="element" id="green3"></div>
-            <div class="element" id="green4"></div>
-            </div>
-            <div>
-                <div class="element2"></div>
-                <div class="element" id="green5"></div>
-                <div class="element" id="green5"></div>
-                <div class="element" id="green5"></div>
-                <div class="element" id="green2"></div>
-                <div class="element" id="green2"></div>
-                <div class="element" id="green4"></div>
-                </div>
-                <div>
-                    <div class="element2"></div>
-                    <div class="element" id="green6"></div>
-                    <div class="element" id="green6"></div>
-                    <div class="element" id="green6"></div>
-                    <div class="element" id="green6"></div>
-                    <div class="element" id="green6"></div>
-                    <div class="element" id="green4"></div>
-                    </div>
-                    <div>
-                        <div class="element" id="color4"></div>
-                        <div class="element" id="color4"></div>
-                        <div class="element" id="color4"></div>
-                        <div class="element" id="color4"></div>
-                        <div class="element" id="color4"></div>
-                        <div class="element" id="color4"></div>
-                        <div class="element" id="green4"></div>
-                        </div>
-                        </div>
-                        <div class="block2">
-                        
-<div class="class" id="q">La</div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
-<div class="class"></div>
- </div>
-           <div class="block3">     
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1" id="p">Am</div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1"></div>
-    <div class="class1" id="v">No</div>
-    </div>
-</body>
-</html>
+//submit form- local storage with key task-list
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit", submitform);
+
+function submitform(e) {
+  e.preventDefault();
+  let name = document.getElementById("name").value;
+  let desc = document.getElementById("desc").value;
+  let start = document.getElementById("start").value;
+  let end = document.getElementById("end").value;
+  let priority = document.getElementById("priority").value;
+  let obj = {
+    name: name,
+    desc: desc,
+    start: start,
+    end: end,
+    priority: priority,
+  };
+  let tasklist=JSON.parse(localStorage.getItem("task-list"))||[]
+  tasklist.push(obj);
+  localStorage.setItem("task-list",JSON.stringify(tasklist))
+
+}
+/////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+// Write code related to dashboard page here
+
+let parent = document.querySelector("tbody");
+
+let data = JSON.parse(localStorage.getItem("task-list")) || [];
+document.getElementById("task-count").innerText = data.length;
+appendata(data)
+function appendata(data) {
+    parent.innerHTML = "";
+    data.forEach(function (ele, ind) {
+        let tr = document.createElement("tr");
+        let td1 = document.createElement("td");
+        td1.textContent = ele.name;
+        let td2 = document.createElement("td");
+        td2.textContent = ele.desc;
+        let td3 = document.createElement("td");
+        td3.textContent = ele.start;
+        let td4 = document.createElement("td");
+        td4.textContent = ele.end;
+        let td5 = document.createElement("td");
+        td5.textContent = ele.priority;
+        let td6 = document.createElement("td");
+        td6.textContent = "Add";
+        td6.addEventListener("click", function () {
+            //splice will return an array with deleted element
+            let ele = data.splice(ind, 1);
+            //console.log(ele)
+            let prioritylist = JSON.parse(localStorage.getItem("priority-list")) || [];
+            prioritylist.push(ele[0])
+            localStorage.setItem("priority-list", JSON.stringify(prioritylist));
+            localStorage.setItem("task-list", JSON.stringify(data));
+            appendata(data);
+
+        })
+        tr.append(td1, td2, td3, td4, td5, td6);
+        parent.append(tr);
+
+        document.getElementById("task-count").innerText = data.length;
+
+
+    })
+}
+
+
+let select = document.querySelector("select");
+
+select.addEventListener("change", selectfunction);
+
+function selectfunction() {
+    let filtervalue = select.value;
+
+    data = JSON.parse(localStorage.getItem("task-list")) || [];
+    let data1 = data.filter(function (ele, ind) {
+        if (filtervalue === "") {
+            return true;
+        }
+        return ele.priority === filtervalue;
+    })
+    appendata(data1);
+    document.getElementById("task-count").innerText = data1.length;
+
+}
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Write code for the Progress page here 
+
+// Write code related to dashboard page here
+
+let parent=document.querySelector("tbody");
+
+let data=JSON.parse(localStorage.getItem("priority-list"))||[];
+
+appendata(data)
+function appendata(data)
+{
+    parent.innerHTML="";
+    data.forEach(function(ele,ind){
+        let tr=document.createElement("tr");
+        let td1=document.createElement("td");
+        td1.textContent=ele.name;
+        let td2=document.createElement("td");
+        td2.textContent=ele.desc;
+        let td3=document.createElement("td");
+        td3.textContent=ele.start;
+        let td4=document.createElement("td");
+        td4.textContent=ele.end;
+        let td5=document.createElement("td");
+        td5.textContent=ele.priority;
+        let td6=document.createElement("td");
+        td6.textContent="Add";
+        td6.addEventListener("click",function(){
+            let ele=data.splice(ind,1);
+            let donelist=JSON.parse(localStorage.getItem("done-list"))||[];
+            donelist.push(ele[0])
+            localStorage.setItem("done-list",JSON.stringify(donelist));
+            localStorage.setItem("priority-list",JSON.stringify(data));
+            appendata(data);
+        })
+        tr.append(td1,td2,td3,td4,td5,td6);
+        parent.append(tr);
+
+
+    })
+}
+//////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+// Write code related to Done page here
+
+let parent=document.querySelector("tbody");
+
+let data=JSON.parse(localStorage.getItem("done-list"))||[];
+
+appendata(data)
+function appendata(data)
+{
+    parent.innerHTML="";
+    data.forEach(function(ele,ind){
+        let tr=document.createElement("tr");
+        let td1=document.createElement("td");
+        td1.textContent=ele.name;
+        let td2=document.createElement("td");
+        td2.textContent=ele.desc;
+        let td3=document.createElement("td");
+        td3.textContent=ele.start;
+        let td4=document.createElement("td");
+        td4.textContent=ele.end;
+        let td5=document.createElement("td");
+        td5.textContent=ele.priority;        
+        tr.append(td1,td2,td3,td4,td5);
+        parent.append(tr);
+
+
+    })
+}
